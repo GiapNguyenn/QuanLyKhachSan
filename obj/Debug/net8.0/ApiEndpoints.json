@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "QLKS.API.Controllers.ChucVuController",
+    "Method": "GetAll",
+    "RelativePath": "api/ChucVu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.ChucVuController",
+    "Method": "Create",
+    "RelativePath": "api/ChucVu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addChucVuRequestDto",
+        "Type": "QLKS.API.Models.DTO.AddChucVuRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.ChucVuController",
+    "Method": "GetById",
+    "RelativePath": "api/ChucVu/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.ChucVuController",
+    "Method": "Update",
+    "RelativePath": "api/ChucVu/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateChucVuRequestDto",
+        "Type": "QLKS.API.Models.DTO.UpdateChucVuRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.ChucVuController",
+    "Method": "Delete",
+    "RelativePath": "api/ChucVu/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
