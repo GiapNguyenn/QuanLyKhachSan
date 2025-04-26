@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\QLKS.API.csproj": {}
+    "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj": {}
   },
   "projects": {
-    "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\QLKS.API.csproj": {
+    "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\QLKS.API.csproj",
+        "projectUniqueName": "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj",
         "projectName": "QLKS.API",
-        "projectPath": "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\QLKS.API.csproj",
+        "projectPath": "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\obj\\",
+        "outputPath": "D:\\ProjectQLKS\\QuanLyKhachSan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

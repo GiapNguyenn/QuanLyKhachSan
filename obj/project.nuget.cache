@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOCXJ/v65vg=",
+  "dgSpecHash": "Mc6gyzdM+pLAneaoDTYM14oQiuvrqwH+Axh2FN0nq65m09KieE1Mmi0N+pJNeb3Vs8Jgo29eX2yDxDa/m0ptFQ==",
   "success": true,
-  "projectFilePath": "D:\\C#_Co_Ban\\PhatTrienUngDungWebQLKS\\QLKS.API\\QLKS.API\\QLKS.API.csproj",
+  "projectFilePath": "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
