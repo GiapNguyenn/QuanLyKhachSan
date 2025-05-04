@@ -1,32 +1,42 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using QLKS.API.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using QLKS.API.Data;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+// ✅ Ép ứng dụng lắng nghe đúng PORT do Render chỉ định
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 builder.WebHost.UseUrls($"http://*:{port}");
 
-// Cấu hình dịch vụ
+// Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<QLKSDbContextcs>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("QLKSConnectionString")));
 
 var configuration = builder.Configuration;
 
+// ✅ Cấu hình CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // địa chỉ frontend local
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// ✅ Cấu hình Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v3", new OpenApiInfo { Title = "Your API", Version = "v3" });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
-        Description = "Vui lòng bỏ chuỗi kết nối tại đây",
+        Description = "Vui lòng nhập chuỗi kết nối JWT tại đây",
         Name = "Authorization",
         Type = SecuritySchemeType.ApiKey,
         BearerFormat = "JWT",
@@ -67,15 +77,20 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v3/swagger.json", "Your API V3");
-    c.RoutePrefix = ""; // 👉 Đặt swagger UI làm trang chủ
+    c.RoutePrefix = ""; // 👉 Swagger làm trang chủ
 });
 
-// ⚠️ Không nên dùng redirect HTTPS trên Render Free
+// ❌ Không nên bật HTTPS redirect trên Render Free
 // app.UseHttpsRedirection();
 
 app.UseRouting();
+
+// ✅ Kích hoạt chính sách CORS
+app.UseCors("AllowFrontend");
+
 app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
