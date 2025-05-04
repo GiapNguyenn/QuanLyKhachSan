@@ -4937,11 +4937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\QLKS.API.csproj",
       "projectName": "QLKS.API",
-      "projectPath": "D:\\ProjectQLKS\\QuanLyKhachSan\\QLKS.API.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\QLKS.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectQLKS\\QuanLyKhachSan\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
