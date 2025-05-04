@@ -13,5 +13,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 
-EXPOSE 80
+# ✅ Sửa EXPOSE để phù hợp cổng Render sẽ sử dụng
+EXPOSE 10000
 ENTRYPOINT ["dotnet", "QLKS.API.dll"]

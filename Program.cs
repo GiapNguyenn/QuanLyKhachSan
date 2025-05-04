@@ -8,8 +8,8 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Ép ứng dụng lắng nghe đúng PORT do Render cung cấp
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 builder.WebHost.UseUrls($"http://*:{port}");
 
 // Cấu hình dịch vụ
@@ -63,24 +63,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 var app = builder.Build();
 
-// Chỉ bật Swagger khi dev
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v3/swagger.json", "Your API V3");
-    });
-}
+    c.SwaggerEndpoint("/swagger/v3/swagger.json", "Your API V3");
+    c.RoutePrefix = ""; // 👉 Đặt swagger UI làm trang chủ
+});
 
-// ⚠️ Không bật HTTPS redirect trong môi trường production (tránh lỗi trên Render)
-if (!app.Environment.IsProduction())
-{
-    app.UseHttpsRedirection();
-}
+// ⚠️ Không nên dùng redirect HTTPS trên Render Free
+// app.UseHttpsRedirection();
 
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
