@@ -85,6 +85,18 @@ app.UseSwaggerUI(c =>
 
 app.UseRouting();
 
+app.Use(async (context, next) =>
+{
+    if (context.Request.Method == HttpMethods.Options)
+    {
+        context.Response.StatusCode = 200;
+        await context.Response.CompleteAsync();
+    }
+    else
+    {
+        await next();
+    }
+});
 // ✅ Kích hoạt chính sách CORS
 app.UseCors("AllowFrontend");
 
