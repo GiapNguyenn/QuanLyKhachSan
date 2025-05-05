@@ -23,8 +23,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("https://vite.hoanglong.dev"); // địa chỉ frontend local
-              .AllowAnyMethod();
+        policy.WithOrigins("https://vite.hoanglong.dev") // địa chỉ frontend local
+              .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
