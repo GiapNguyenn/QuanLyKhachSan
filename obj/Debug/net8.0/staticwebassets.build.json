@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "9/3onHe0ZKY9RyL2MQ6Ah8Q6Ip1c/ZB1yKFYI5hivHs=",
+  "Hash": "jul2q7LH5z5Q/2VjqkWQPcH+y0ni1kXH9LFeRW540/M=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
