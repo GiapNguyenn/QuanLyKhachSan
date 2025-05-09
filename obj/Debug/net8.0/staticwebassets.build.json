@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "9/3onHe0ZKY9RyL2MQ6Ah8Q6Ip1c/ZB1yKFYI5hivHs=",
+  "Hash": "YuUFdBXWuQ5h/foOBhLC9txjUODxt5xZtqqPG6tCuN4=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "QLKS.API\\wwwroot",
+      "Source": "QLKS.API",
+      "ContentRoot": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/users/TMDT.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\TMDT.jpg"
+    }
+  ]
 }

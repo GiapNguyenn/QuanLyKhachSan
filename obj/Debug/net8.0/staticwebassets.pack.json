@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\TMDT.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLKS.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QLKS.API.props",
+      "PackagePath": "build\\QLKS.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QLKS.API.props",
+      "PackagePath": "buildMultiTargeting\\QLKS.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QLKS.API.props",
+      "PackagePath": "buildTransitive\\QLKS.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

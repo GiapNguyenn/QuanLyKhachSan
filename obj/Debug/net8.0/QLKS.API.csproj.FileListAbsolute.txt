@@ -1032,3 +1032,4 @@ C:\Users\tuana\OneDrive\Desktop\QuanLyKhachSan\obj\Debug\net8.0\refint\QLKS.API.
 C:\Users\tuana\OneDrive\Desktop\QuanLyKhachSan\obj\Debug\net8.0\QLKS.API.pdb
 C:\Users\tuana\OneDrive\Desktop\QuanLyKhachSan\obj\Debug\net8.0\QLKS.API.genruntimeconfig.cache
 C:\Users\tuana\OneDrive\Desktop\QuanLyKhachSan\obj\Debug\net8.0\ref\QLKS.API.dll
+C:\Users\tuana\OneDrive\Desktop\QuanLyKhachSan\bin\Debug\net8.0\QLKS.API.staticwebassets.runtime.json
