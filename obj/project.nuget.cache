@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BThGLgBz0VY=",
+  "dgSpecHash": "PqaBHSAXzZU=",
   "success": true,
-  "projectFilePath": "D:\\APIWebQuanLyKhachSan\\QLKS.API.csproj",
-
+  "projectFilePath": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\QLKS.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuana\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tuana\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

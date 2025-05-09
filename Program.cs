@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "https://vite.hoanglong.dev" , "https://blue-team-fe-quan-ly-khach-san-ahh6.vercel.app")
+        policy.WithOrigins("http://localhost:5173", "https://vite.hoanglong.dev" , "https://blue-team-fe-quan-ly-khach-san-ahh6.vercel.app" , "https://blueteamflhu.io.vn")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
