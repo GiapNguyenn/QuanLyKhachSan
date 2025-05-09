@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLKS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+febbcd7f3d49f549422a73b48f9d12f53495c7f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4ee548cf68944ea0fd2ac0e16bce19677b9aca")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLKS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLKS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

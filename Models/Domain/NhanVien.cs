@@ -1,0 +1,22 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace QLKS.API.Models.Domain
+{
+    public class NhanVien
+    {
+        [Key]
+        public int IdNhanVien { get; set; }
+        public string? HoTen { get; set; }
+        public string? SDT { get; set; }
+        public string? Email { get; set; }
+        public string? DiaChi { get; set; } 
+        public string? MatKhau { get; set; }
+        public string? SaltKey { get; set; }
+        public string? Meta { get; set; }
+        public bool Hide { get; set; }
+        public int SapXep { get; set; }
+        public DateTime DateBegin { get; set; }
+        public int IdChucVu { get; set; }
+        
+    }
+}
