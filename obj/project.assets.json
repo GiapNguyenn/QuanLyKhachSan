@@ -4943,6 +4943,7 @@
       "projectPath": "D:\\APIWebQuanLyKhachSan\\QLKS.API.csproj",
       "packagesPath": "C:\\Users\\tuana\\.nuget\\packages\\",
       "outputPath": "D:\\APIWebQuanLyKhachSan\\obj\\",
+
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
