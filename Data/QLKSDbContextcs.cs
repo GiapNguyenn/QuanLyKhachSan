@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QLKS.API.Models.Domain;
+using QuanLyKhachSan.Models.Domain;
 
 namespace QLKS.API.Data
 {
@@ -15,11 +16,15 @@ namespace QLKS.API.Data
             modelBuilder.Entity<Login>().ToTable("Login", "QLKS");
             modelBuilder.Entity<KhachHang>().ToTable("KhachHang", "QLKS");
             modelBuilder.Entity<NhanVien>().ToTable("NhanVien", "QLKS");
+            modelBuilder.Entity<PhieuDatPhong>().ToTable("PhieuDatPhong", "QLKS");
+            modelBuilder.Entity<Phong>().ToTable("Phong", "QLKS");
         }
 
         public DbSet<ChucVu> chucVus { get; set; }
         public DbSet<Login> logins { get; set; }   
         public DbSet<KhachHang> khachHangs{ get;set; }  
         public DbSet<NhanVien> nhanViens { get; set; }
+        public DbSet<Phong> Phongs { get; set; }
+        public DbSet<PhieuDatPhong> PhieuDatPhongs { get; set; }
     }
 }

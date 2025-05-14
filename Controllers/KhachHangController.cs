@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QLKS.API.Data;
+using QuanLyKhachSan.helpers;
+using QuanLyKhachSan.Models.DTO;
 using QLKS.API.Models.Domain;
 using QLKS.API.Models.DTO;
 using System.Globalization;
@@ -19,28 +21,28 @@ namespace QLKS.API.Controllers
             this.dbContext = dbContext;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] PaginationDto pagination)
         {
-            var khachHangDomain = await dbContext.khachHangs.ToListAsync();
-            var khachHangDto = new List<KhachHangDto>();
-            foreach (var khachHangDomains in khachHangDomain)
-            {
-                khachHangDto.Add(new KhachHangDto()
+            var query = dbContext.khachHangs.AsQueryable();
+
+            var pagedResult = await query
+                .Select(kh => new KhachHangDto
                 {
-                    IdKhachHang = khachHangDomains.IdKhachHang,
-                    HoTen = khachHangDomains.HoTen ?? "",
-                    SDT = khachHangDomains.SDT ?? "",
-                    CCCD = khachHangDomains.CCCD ?? "",
-                    Email = khachHangDomains.Email ?? "",
-                    MatKhau = khachHangDomains.MatKhau ?? "",
-                    SaltKey = khachHangDomains.SaltKey ?? "",
-                    Meta = khachHangDomains.Meta ?? "",
-                    Hide = khachHangDomains.Hide,
-                    SapXep = khachHangDomains.SapXep,
-                    DataBegin = khachHangDomains.DataBegin,
-                });
-            }
-            return Ok(khachHangDto);
+                    IdKhachHang = kh.IdKhachHang,
+                    HoTen = kh.HoTen ?? "",
+                    SDT = kh.SDT ?? "",
+                    CCCD = kh.CCCD ?? "",
+                    Email = kh.Email ?? "",
+                    MatKhau = kh.MatKhau ?? "",
+                    SaltKey = kh.SaltKey ?? "",
+                    Meta = kh.Meta ?? "",
+                    Hide = kh.Hide,
+                    SapXep = kh.SapXep,
+                    DataBegin = kh.DataBegin
+                })
+                .ToPagedResultAsync(pagination);
+
+            return Ok(pagedResult);
         }
         [HttpGet]
         [Route("{id:int}")]

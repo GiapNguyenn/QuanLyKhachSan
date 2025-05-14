@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YuUFdBXWuQ5h/foOBhLC9txjUODxt5xZtqqPG6tCuN4=",
+  "Hash": "dEWshOb1cqHIMOEUqjbILoyES3hAUgUk6FBYX3aQFxU=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "QLKS.API\\wwwroot",
       "Source": "QLKS.API",
-      "ContentRoot": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
       "SourceId": "QLKS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tuana\\OneDrive\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
       "RelativePath": "uploads/users/TMDT.jpg",
       "AssetKind": "All",
