@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using QuanLyKhachSan.Models.Domain;
 
 namespace QLKS.API.Models.Domain
 {
