@@ -77,15 +77,15 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v3/swagger.json", "Your API V3");
-    c.RoutePrefix = ""; // 👉 Swagger làm trang chủ
+    c.RoutePrefix = ""; 
 });
 
-// ❌ Không nên bật HTTPS redirect trên Render Free
+//Không nên bật HTTPS redirect trên Render Free
 // app.UseHttpsRedirection();
 
 app.UseRouting();
 
-// ✅ Kích hoạt chính sách CORS
+
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication();

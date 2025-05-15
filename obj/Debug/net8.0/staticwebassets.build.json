@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FU/rlDVTIApvKVqCCKyJv6CeHu1AoavWYvRTG6pZOTU=",
+  "Hash": "w57XbS7SBn9JywOISPhVf05sIE0uu9VpnTvwvGsegd8=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
@@ -10,116 +10,49 @@
     {
       "Name": "QLKS.API\\wwwroot",
       "Source": "QLKS.API",
-      "ContentRoot": "D:\\APIQuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
       "SourceId": "QLKS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\APIQuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
-      "RelativePath": "uploads/users/TMDT#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "omy67vltph",
-      "Integrity": "0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/users/TMDT.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\TMDT.jpg"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "uploads/users/TMDT.jpg",
-      "AssetFile": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "147845"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 04:23:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/users/TMDT.omy67vltph.jpg",
-      "AssetFile": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "147845"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 04:23:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "omy67vltph"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/users/TMDT.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
-        }
-      ]
     }
   ]
 }
