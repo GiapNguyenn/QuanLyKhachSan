@@ -8,5 +8,6 @@
         public bool Hide { get; set; }
         public int ThuTuHienThi { get; set; }
         public DateTime DateBegin { get; set; }
+
     }
 }

@@ -18,6 +18,9 @@ namespace QLKS.API.Data
             modelBuilder.Entity<NhanVien>().ToTable("NhanVien", "QLKS");
             modelBuilder.Entity<PhieuDatPhong>().ToTable("PhieuDatPhong", "QLKS");
             modelBuilder.Entity<Phong>().ToTable("Phong", "QLKS");
+            modelBuilder.Entity<LoaiPhong>().ToTable("LoaiPhong", "QLKS");
+            modelBuilder.Entity<TienNghi>().ToTable("TienNghi", "QLKS");
+            modelBuilder.Entity<DatPhong>().ToTable("DatPhong", "QLKS");
         }
 
         public DbSet<ChucVu> chucVus { get; set; }
@@ -26,5 +29,8 @@ namespace QLKS.API.Data
         public DbSet<NhanVien> nhanViens { get; set; }
         public DbSet<Phong> Phongs { get; set; }
         public DbSet<PhieuDatPhong> PhieuDatPhongs { get; set; }
+        public DbSet<LoaiPhong> LoaiPhongs { get; set; }
+        public DbSet<TienNghi> TienNghis { get; set; } 
+        public DbSet<DatPhong> DatPhongs { get; set; }  
     }
 }

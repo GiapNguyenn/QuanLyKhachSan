@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "uploads/users/TMDT.jpg",
+      "AssetFile": "uploads/users/TMDT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/TMDT.omy67vltph.jpg",
+      "AssetFile": "uploads/users/TMDT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "omy67vltph"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/users/TMDT.jpg"
+        }
+      ]
+    }
+  ]
 }
