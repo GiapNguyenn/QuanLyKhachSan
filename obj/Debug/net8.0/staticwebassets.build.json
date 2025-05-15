@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dEWshOb1cqHIMOEUqjbILoyES3hAUgUk6FBYX3aQFxU=",
+  "Hash": "FU/rlDVTIApvKVqCCKyJv6CeHu1AoavWYvRTG6pZOTU=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
@@ -10,30 +10,116 @@
     {
       "Name": "QLKS.API\\wwwroot",
       "Source": "QLKS.API",
-      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "D:\\APIQuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Identity": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
       "SourceId": "QLKS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "ContentRoot": "D:\\APIQuanLyKhachSan\\wwwroot\\",
       "BasePath": "_content/QLKS.API",
-      "RelativePath": "uploads/users/TMDT.jpg",
+      "RelativePath": "uploads/users/TMDT#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "omy67vltph",
+      "Integrity": "0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\TMDT.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/users/TMDT.jpg",
+      "AssetFile": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/TMDT.omy67vltph.jpg",
+      "AssetFile": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "omy67vltph"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/users/TMDT.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ="
+        }
+      ]
     }
   ]
 }

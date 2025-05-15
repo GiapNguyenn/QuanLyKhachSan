@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+      "Id": "D:\\APIQuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\TMDT.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLKS.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLKS.API.Microsoft.AspNetCore.StaticWebAssets.props",

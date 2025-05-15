@@ -79,13 +79,103 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "QLKS.API.Controllers.DatPhongController",
+    "Method": "GetAll",
+    "RelativePath": "api/DatPhong",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.DatPhongController",
+    "Method": "Create",
+    "RelativePath": "api/DatPhong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDatPhongRequestDto",
+        "Type": "QLKS.API.Models.DTO.AddDatPhongRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.DatPhongController",
+    "Method": "GetById",
+    "RelativePath": "api/DatPhong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.DatPhongController",
+    "Method": "Update",
+    "RelativePath": "api/DatPhong/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDatPhongRequestDto",
+        "Type": "QLKS.API.Models.DTO.UpdateDatPhongRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.DatPhongController",
+    "Method": "Delete",
+    "RelativePath": "api/DatPhong/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "QLKS.API.Controllers.KhachHangController",
     "Method": "GetAll",
     "RelativePath": "api/KhachHang",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -145,6 +235,85 @@
     "ContainingType": "QLKS.API.Controllers.KhachHangController",
     "Method": "Delete",
     "RelativePath": "api/KhachHang/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.LoaiPhongController",
+    "Method": "GetAll",
+    "RelativePath": "api/LoaiPhong",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.LoaiPhongController",
+    "Method": "Create",
+    "RelativePath": "api/LoaiPhong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLoaiPhongRequestDto",
+        "Type": "QLKS.API.Models.DTO.AddLoaiPhongRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.LoaiPhongController",
+    "Method": "GetById",
+    "RelativePath": "api/LoaiPhong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.LoaiPhongController",
+    "Method": "Update",
+    "RelativePath": "api/LoaiPhong/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateLoaiPhongRequestDto",
+        "Type": "QLKS.API.Models.DTO.UpdateLoaiPhongRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.LoaiPhongController",
+    "Method": "Delete",
+    "RelativePath": "api/LoaiPhong/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -266,6 +435,243 @@
     "ContainingType": "QLKS.API.Controllers.NhanVienController",
     "Method": "Delete",
     "RelativePath": "api/NhanVien/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhieuDatPhongController",
+    "Method": "GetAll",
+    "RelativePath": "api/PhieuDatPhong",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhieuDatPhongController",
+    "Method": "Create",
+    "RelativePath": "api/PhieuDatPhong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "QuanLyKhachSan.Models.Domain.PhieuDatPhong",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhieuDatPhongController",
+    "Method": "GetById",
+    "RelativePath": "api/PhieuDatPhong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhieuDatPhongController",
+    "Method": "Update",
+    "RelativePath": "api/PhieuDatPhong/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "QuanLyKhachSan.Models.Domain.PhieuDatPhong",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhieuDatPhongController",
+    "Method": "Delete",
+    "RelativePath": "api/PhieuDatPhong/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhongController",
+    "Method": "GetAll",
+    "RelativePath": "api/Phong",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhongController",
+    "Method": "Create",
+    "RelativePath": "api/Phong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phong",
+        "Type": "QLKS.API.Models.Domain.Phong",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhongController",
+    "Method": "GetById",
+    "RelativePath": "api/Phong/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhongController",
+    "Method": "Update",
+    "RelativePath": "api/Phong/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "phong",
+        "Type": "QLKS.API.Models.Domain.Phong",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyKhachSan.Controllers.PhongController",
+    "Method": "Delete",
+    "RelativePath": "api/Phong/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.TienNghiController",
+    "Method": "GetAll",
+    "RelativePath": "api/TienNghi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.TienNghiController",
+    "Method": "Create",
+    "RelativePath": "api/TienNghi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addTienNghiRequestDto",
+        "Type": "QLKS.API.Models.DTO.AddTienNghiRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.TienNghiController",
+    "Method": "GetById",
+    "RelativePath": "api/TienNghi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.TienNghiController",
+    "Method": "Update",
+    "RelativePath": "api/TienNghi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTienNghhiRequestDto",
+        "Type": "QLKS.API.Models.DTO.UpdateTienNghhiRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.TienNghiController",
+    "Method": "Delete",
+    "RelativePath": "api/TienNghi/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
