@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 using QuanLyKhachSan.Models.DTO;
 using QuanLyKhachSan.Models.Domain;
 using QLKS.API.Data;
+using QuanLyKhachSan.helpers;
+using QuanLyKhachSan.Models.DTO;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -26,10 +28,11 @@ public class PhieuDatPhongController : Controller
 
         // GET: api/PhieuDatPhong
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] PaginationDto pagination)
         {
-            var result = await _context.PhieuDatPhongs.ToListAsync();
-            return Ok(result);
+            var query = _context.PhieuDatPhongs.AsQueryable();
+            var pagedResult = await query.ToPagedResultAsync(pagination);
+            return Ok(pagedResult);
         }
 
         // GET: api/PhieuDatPhong/5
