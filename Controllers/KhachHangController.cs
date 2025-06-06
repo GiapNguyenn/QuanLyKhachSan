@@ -71,6 +71,40 @@ namespace QLKS.API.Controllers
             };
             return Ok(khachHangDto);    
         }
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchKhachHang([FromQuery] string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return BadRequest("Vui lòng cung cấp từ khóa tìm kiếm.");
+            }
+
+            query = query.ToLower();
+
+            var khachHangs = await dbContext.khachHangs
+                .Where(x =>
+                    (x.HoTen != null && x.HoTen.ToLower().Contains(query)) ||
+                    (x.SDT != null && x.SDT.ToLower().Contains(query)) ||
+                    (x.CCCD != null && x.CCCD.ToLower().Contains(query)) ||
+                    (x.Email != null && x.Email.ToLower().Contains(query)))
+                .Select(khachhang => new KhachHangDto
+                {
+                    IdKhachHang = khachhang.IdKhachHang,
+                    HoTen = khachhang.HoTen,
+                    SDT = khachhang.SDT,
+                    CCCD = khachhang.CCCD,
+                    Email = khachhang.Email,
+                    MatKhau = khachhang.MatKhau,
+                    SaltKey = khachhang.SaltKey,
+                    Meta = khachhang.Meta,
+                    Hide = khachhang.Hide,
+                    SapXep = khachhang.SapXep,
+                    DataBegin = khachhang.DataBegin,
+                })
+                .ToListAsync();
+
+            return Ok(khachHangs);
+        }
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddKhachHangRequestDto addKhachHangRequestDto)
         {
