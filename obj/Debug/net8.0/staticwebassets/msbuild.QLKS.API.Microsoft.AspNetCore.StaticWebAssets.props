@@ -1,6 +1,38 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>QLKS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -12,13 +44,10 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ga81tgzmls</Fingerprint>
-      <Integrity>yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>QLKS.API</SourceId>
@@ -35,10 +64,119 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLKS.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLKS.API</BasePath>
+      <RelativePath>uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\users\TMDT.jpg))">
-=======
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\users\TMDT.jpg'))">
->>>>>>> master
       <SourceType>Package</SourceType>
       <SourceId>QLKS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -50,11 +188,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>omy67vltph</Fingerprint>
-      <Integrity>0MeY4rmm1mt5FGGEKBq+bloUVSrpPZWepQgLm7HNHoQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\users\TMDT.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\users\TMDT.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
