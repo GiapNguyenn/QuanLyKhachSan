@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w57XbS7SBn9JywOISPhVf05sIE0uu9VpnTvwvGsegd8=",
+  "Hash": "CsZTO/Kxh9kn4m7QxGSYnr3KkS78P0vRx8DuX4S7Rvs=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\phongs\\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",

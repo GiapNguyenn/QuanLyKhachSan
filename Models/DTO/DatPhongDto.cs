@@ -1,17 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿// (Nội dung đã cung cấp ở câu trả lời trước)
+using System;
 
-namespace QLKS.API.Models.DTO
+namespace QLKS.API.Models.DTO.DatPhong
 {
     public class DatPhongDto
     {
-        [Key]
-        public int MaDatPhong { get; set; }
-        public DateTime ThoiGianNhanPhong { get; set; }
-        public DateTime ThoiGianTraPhong { get; set; }
-        public string? TrangThai { get; set; }
-        public string? GhiChu { get; set; }
-        public DateTime? ThoiGianTao { get; set; }
-        public int IdKhachHang { get; set; }
+        public int IdDatPhong { get; set; }
+        public int IdPhieuDatPhong { get; set; }
         public int IdPhong { get; set; }
+        public DateTime NgayNhanPhong { get; set; }
+        public DateTime NgayTraPhong { get; set; }
+        public decimal DonGiaPhong { get; set; }
+        public int SoLuongNguoiLon { get; set; }
+        public int SoLuongTreEm { get; set; }
+        public string TrangThaiDatPhong { get; set; }
+        public string? GhiChu { get; set; }
+        public DateTime ThoiGianTao { get; set; }
     }
 }

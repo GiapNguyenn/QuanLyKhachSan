@@ -1,185 +1,243 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿// (Nội dung đã cung cấp ở câu trả lời trước)
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QLKS.API.Data;
 using QLKS.API.Models.Domain;
-using QLKS.API.Models.DTO;
-using System.Runtime.Intrinsics.Arm;
+using QLKS.API.Models.DTO.DatPhong;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
-namespace QLKS.API.Controllers
+
+[ApiController]
+[Route("api/[controller]")]
+public class DatPhongController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class DatPhongController : ControllerBase
+    private readonly QLKSDbContextcs _dbContext;
+
+    public DatPhongController(QLKSDbContextcs dbContext)
     {
-        private readonly QLKSDbContextcs dbContext;
+        _dbContext = dbContext;
+    }
 
-        public DatPhongController(QLKSDbContextcs dbContext)
+    // Lấy tất cả lượt đặt phòng
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var datPhongDomain = await _dbContext.DatPhongs.ToListAsync();
+        var datPhongDto = datPhongDomain.Select(dp => new DatPhongDto
         {
-            this.dbContext = dbContext;
-        }
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
+            IdDatPhong = dp.IdDatPhong,
+            IdPhieuDatPhong = dp.IdPhieuDatPhong,
+            IdPhong = dp.IdPhong,
+            NgayNhanPhong = dp.NgayNhanPhong,
+            NgayTraPhong = dp.NgayTraPhong,
+            DonGiaPhong = dp.DonGiaPhong,
+            SoLuongNguoiLon = dp.SoLuongNguoiLon,
+            SoLuongTreEm = dp.SoLuongTreEm,
+            TrangThaiDatPhong = dp.TrangThaiDatPhong,
+            GhiChu = dp.GhiChu,
+            ThoiGianTao = dp.ThoiGianTao
+        }).ToList();
+        return Ok(datPhongDto);
+    }
+
+    // Lấy lượt đặt phòng theo IdDatPhong
+    [HttpGet]
+    [Route("{id:int}")]
+    public async Task<IActionResult> GetById([FromRoute] int id)
+    {
+        var datPhongDomain = await _dbContext.DatPhongs.FirstOrDefaultAsync(x => x.IdDatPhong == id);
+        if (datPhongDomain == null) return NotFound("Không tìm thấy lượt đặt phòng.");
+
+        var datPhongDto = new DatPhongDto
         {
-            // Get Data From Database - Domain model
-            var datPhongDomains = await dbContext.DatPhongs.ToListAsync();
+            IdDatPhong = datPhongDomain.IdDatPhong,
+            IdPhieuDatPhong = datPhongDomain.IdPhieuDatPhong,
+            IdPhong = datPhongDomain.IdPhong,
+            NgayNhanPhong = datPhongDomain.NgayNhanPhong,
+            NgayTraPhong = datPhongDomain.NgayTraPhong,
+            DonGiaPhong = datPhongDomain.DonGiaPhong,
+            SoLuongNguoiLon = datPhongDomain.SoLuongNguoiLon,
+            SoLuongTreEm = datPhongDomain.SoLuongTreEm,
+            TrangThaiDatPhong = datPhongDomain.TrangThaiDatPhong,
+            GhiChu = datPhongDomain.GhiChu,
+            ThoiGianTao = datPhongDomain.ThoiGianTao
+        };
+        return Ok(datPhongDto);
+    }
 
-            // Map Domain Models to DTOs
-            var datPhongDto = new List<DatPhongDto>();
-            foreach (var dp in datPhongDomains)
-            {
-                datPhongDto.Add(new DatPhongDto()
-                {
-                    MaDatPhong = dp.MaDatPhong,
-                    ThoiGianNhanPhong = dp.ThoiGianNhanPhong,
-                    ThoiGianTraPhong = dp.ThoiGianTraPhong, 
-                    TrangThai = dp.TrangThai,
-                    GhiChu = dp.GhiChu, 
-                    ThoiGianTao =dp.ThoiGianTao,      
-                    IdKhachHang = dp.IdKhachHang,   
-                    IdPhong = dp.IdPhong,   
-                });
+    // Lấy các lượt đặt phòng theo IdPhieuDatPhong
+    [HttpGet]
+    [Route("ByPhieu/{idPhieu:int}")]
+    public async Task<IActionResult> GetByPhieuId([FromRoute] int idPhieu)
+    {
+        var datPhongDomain = await _dbContext.DatPhongs
+                                    .Where(dp => dp.IdPhieuDatPhong == idPhieu)
+                                    .ToListAsync();
+        if (!datPhongDomain.Any()) return NotFound($"Không tìm thấy lượt đặt phòng nào cho phiếu đặt phòng có ID: {idPhieu}");
 
-                
-            }
-            // Return DTOs
-            return Ok(datPhongDto);
-        }
-        // Get By ID Dat Phong
-        [HttpGet]
-        [Route("{id:int}")]
-        public async Task<IActionResult> GetById(int id)
+        var datPhongDtos = datPhongDomain.Select(dp => new DatPhongDto
         {
-            // Get DatPhong Domain Model From Database
-            var datPhong = await dbContext.DatPhongs.FirstOrDefaultAsync(x => x.MaDatPhong == id);
-            if (datPhong == null)
-            {
-                return NotFound();
-            }
+            IdDatPhong = dp.IdDatPhong,
+            IdPhieuDatPhong = dp.IdPhieuDatPhong,
+            IdPhong = dp.IdPhong,
+            NgayNhanPhong = dp.NgayNhanPhong,
+            NgayTraPhong = dp.NgayTraPhong,
+            DonGiaPhong = dp.DonGiaPhong,
+            SoLuongNguoiLon = dp.SoLuongNguoiLon,
+            SoLuongTreEm = dp.SoLuongTreEm,
+            TrangThaiDatPhong = dp.TrangThaiDatPhong,
+            GhiChu = dp.GhiChu,
+            ThoiGianTao = dp.ThoiGianTao
+        }).ToList();
+        return Ok(datPhongDtos);
+    }
 
-            // Map/Convert DatPhong Domain Model to DatPhongDTO DTO
-            var datPhongDto = new DatPhongDto()
-            {
-                MaDatPhong = datPhong.MaDatPhong,
-                ThoiGianNhanPhong = datPhong.ThoiGianNhanPhong,
-                ThoiGianTraPhong = datPhong.ThoiGianTraPhong,
-                TrangThai = datPhong.TrangThai,
-                GhiChu = datPhong.GhiChu,
-                ThoiGianTao = datPhong.ThoiGianTao,
-                IdKhachHang = datPhong.IdKhachHang,
-                IdPhong = datPhong.IdPhong,
-            };
-            return Ok(datPhongDto);
-        }
-        //Post To create new datphong
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] AddDatPhongRequestDto addDatPhongRequestDto)
+
+    // Thêm mới một lượt đặt phòng
+    [HttpPost]
+    public async Task<IActionResult> Add([FromBody] AddDatPhongRequestDto addDatPhongRequestDto)
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+
+        var phieuDatPhongExists = await _dbContext.PhieuDatPhongs.AnyAsync(p => p.IdPhieuDatPhong == addDatPhongRequestDto.IdPhieuDatPhong);
+        if (!phieuDatPhongExists) return BadRequest($"Phiếu đặt phòng với ID {addDatPhongRequestDto.IdPhieuDatPhong} không tồn tại.");
+
+        var phongExists = await _dbContext.Phongs.AnyAsync(p => p.IdPhong == addDatPhongRequestDto.IdPhong);
+        if (!phongExists) return BadRequest($"Phòng với ID {addDatPhongRequestDto.IdPhong} không tồn tại.");
+
+        var isRoomAvailable = await IsRoomAvailable(
+            addDatPhongRequestDto.IdPhong,
+            addDatPhongRequestDto.NgayNhanPhong,
+            addDatPhongRequestDto.NgayTraPhong,
+            0 // 0 cho Add mới
+        );
+        if (!isRoomAvailable) return Conflict("Phòng này đã được đặt hoặc không khả dụng trong khoảng thời gian yêu cầu.");
+
+        var datPhongDomain = new DatPhong
         {
-            // Map or Convert DTP to Domain Model
-            var datphongDomainModel = new DatPhong
-            {
-                ThoiGianNhanPhong = addDatPhongRequestDto.ThoiGianNhanPhong,
-                ThoiGianTraPhong = addDatPhongRequestDto.ThoiGianTraPhong,
-                TrangThai = addDatPhongRequestDto.TrangThai,
-                GhiChu = addDatPhongRequestDto.GhiChu,
-                ThoiGianTao = addDatPhongRequestDto.ThoiGianTao,
-                IdKhachHang = addDatPhongRequestDto.IdKhachHang,
-                IdPhong = addDatPhongRequestDto.IdPhong,
-            };
+            IdPhieuDatPhong = addDatPhongRequestDto.IdPhieuDatPhong,
+            IdPhong = addDatPhongRequestDto.IdPhong,
+            NgayNhanPhong = addDatPhongRequestDto.NgayNhanPhong,
+            NgayTraPhong = addDatPhongRequestDto.NgayTraPhong,
+            DonGiaPhong = addDatPhongRequestDto.DonGiaPhong,
+            SoLuongNguoiLon = addDatPhongRequestDto.SoLuongNguoiLon,
+            SoLuongTreEm = addDatPhongRequestDto.SoLuongTreEm,
+            TrangThaiDatPhong = addDatPhongRequestDto.TrangThaiDatPhong ?? "Đã xác nhận",
+            GhiChu = addDatPhongRequestDto.GhiChu,
+            ThoiGianTao = DateTime.Now
+        };
 
-            // Use Domain Model to create DatPhong
-            await dbContext.DatPhongs.AddAsync(datphongDomainModel);
-            await dbContext.SaveChangesAsync();
+        await _dbContext.DatPhongs.AddAsync(datPhongDomain);
+        await _dbContext.SaveChangesAsync();
 
-            //Map Domain model back to DTO
-            var datphongDto = new DatPhongDto
-            {
-                MaDatPhong = datphongDomainModel.MaDatPhong,
-                ThoiGianNhanPhong = datphongDomainModel.ThoiGianNhanPhong,
-                ThoiGianTraPhong = datphongDomainModel.ThoiGianTraPhong,
-                TrangThai = datphongDomainModel.TrangThai,
-                GhiChu = datphongDomainModel.GhiChu,
-                ThoiGianTao = datphongDomainModel.ThoiGianTao,
-                IdKhachHang = datphongDomainModel.IdKhachHang,
-                IdPhong = datphongDomainModel.IdPhong,
-
-            };
-
-
-            return CreatedAtAction(nameof(GetById), new { id = datphongDomainModel.MaDatPhong }, datphongDto);
-
-        }
-        // Update DatPhong
-        //Put
-        [HttpPut]
-        [Route("{id:int}")]
-        public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateDatPhongRequestDto updateDatPhongRequestDto)
+        var datPhongDto = new DatPhongDto
         {
-            var datPhongDomainModel = await dbContext.DatPhongs.FirstOrDefaultAsync(x => x.MaDatPhong == id);
-            if (datPhongDomainModel == null)
-            {
-                return NotFound();
+            IdDatPhong = datPhongDomain.IdDatPhong,
+            IdPhieuDatPhong = datPhongDomain.IdPhieuDatPhong,
+            IdPhong = datPhongDomain.IdPhong,
+            NgayNhanPhong = datPhongDomain.NgayNhanPhong,
+            NgayTraPhong = datPhongDomain.NgayTraPhong,
+            DonGiaPhong = datPhongDomain.DonGiaPhong,
+            SoLuongNguoiLon = datPhongDomain.SoLuongNguoiLon,
+            SoLuongTreEm = datPhongDomain.SoLuongTreEm,
+            TrangThaiDatPhong = datPhongDomain.TrangThaiDatPhong,
+            GhiChu = datPhongDomain.GhiChu,
+            ThoiGianTao = datPhongDomain.ThoiGianTao
+        };
+        return CreatedAtAction(nameof(GetById), new { id = datPhongDto.IdDatPhong }, datPhongDto);
+    }
 
-            }
-            //Map DTO to Domain model
-            datPhongDomainModel.ThoiGianNhanPhong = updateDatPhongRequestDto.ThoiGianNhanPhong;
-            datPhongDomainModel.ThoiGianTraPhong = updateDatPhongRequestDto.ThoiGianTraPhong;
-            datPhongDomainModel.TrangThai = updateDatPhongRequestDto.TrangThai;
-            datPhongDomainModel.GhiChu = updateDatPhongRequestDto.GhiChu;
-            datPhongDomainModel.ThoiGianTao = updateDatPhongRequestDto.ThoiGianTao;
-            datPhongDomainModel.IdKhachHang = updateDatPhongRequestDto.IdKhachHang;
-            datPhongDomainModel.IdPhong = updateDatPhongRequestDto.IdPhong;
+    // Cập nhật một lượt đặt phòng
+    [HttpPut]
+    [Route("{id:int}")]
+    public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateDatPhongRequestDto updateDatPhongRequestDto)
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
 
+        var datPhongDomain = await _dbContext.DatPhongs.FirstOrDefaultAsync(x => x.IdDatPhong == id);
+        if (datPhongDomain == null) return NotFound("Không tìm thấy lượt đặt phòng để cập nhật.");
 
-
-            await dbContext.SaveChangesAsync();
-
-            // Convert Domain model to DTO
-            var datPhongDto = new DatPhongDto()
-            {
-                MaDatPhong = datPhongDomainModel.MaDatPhong,
-                ThoiGianNhanPhong = datPhongDomainModel.ThoiGianNhanPhong,
-                ThoiGianTraPhong = datPhongDomainModel.ThoiGianTraPhong,
-                TrangThai = datPhongDomainModel.TrangThai,
-                GhiChu = datPhongDomainModel.GhiChu,
-                ThoiGianTao = datPhongDomainModel.ThoiGianTao,
-                IdKhachHang = datPhongDomainModel.IdKhachHang,
-                IdPhong = datPhongDomainModel.IdPhong,
-
-
-            };
-
-            return Ok(datPhongDto);
-
-        }
-        //Delete DatPhong
-        [HttpDelete]
-        [Route("{id:int}")]
-        public async Task<IActionResult> Delete([FromRoute] int id)
+        if (datPhongDomain.IdPhieuDatPhong != updateDatPhongRequestDto.IdPhieuDatPhong)
         {
-            var datphongDomainModel = await dbContext.DatPhongs.FirstOrDefaultAsync(x => x.MaDatPhong == id);
-            if (datphongDomainModel == null)
-            {
-                return NotFound();
-
-            }
-            dbContext.DatPhongs.Remove(datphongDomainModel);
-            await dbContext.SaveChangesAsync();
-
-            var datphongDto = new DatPhongDto()
-            {
-                MaDatPhong = datphongDomainModel.MaDatPhong,
-                ThoiGianNhanPhong = datphongDomainModel.ThoiGianNhanPhong,
-                ThoiGianTraPhong = datphongDomainModel.ThoiGianTraPhong,
-                TrangThai = datphongDomainModel.TrangThai,
-                GhiChu = datphongDomainModel.GhiChu,
-                ThoiGianTao = datphongDomainModel.ThoiGianTao,
-                IdKhachHang = datphongDomainModel.IdKhachHang,
-                IdPhong = datphongDomainModel.IdPhong,
-            };
-            return Ok(datphongDto);
-
+            var phieuDatPhongExists = await _dbContext.PhieuDatPhongs.AnyAsync(p => p.IdPhieuDatPhong == updateDatPhongRequestDto.IdPhieuDatPhong);
+            if (!phieuDatPhongExists) return BadRequest($"Phiếu đặt phòng với ID {updateDatPhongRequestDto.IdPhieuDatPhong} không tồn tại.");
         }
 
+        if (datPhongDomain.IdPhong != updateDatPhongRequestDto.IdPhong)
+        {
+            var phongExists = await _dbContext.Phongs.AnyAsync(p => p.IdPhong == updateDatPhongRequestDto.IdPhong);
+            if (!phongExists) return BadRequest($"Phòng với ID {updateDatPhongRequestDto.IdPhong} không tồn tại.");
+        }
+
+        if (datPhongDomain.IdPhong != updateDatPhongRequestDto.IdPhong ||
+            datPhongDomain.NgayNhanPhong != updateDatPhongRequestDto.NgayNhanPhong ||
+            datPhongDomain.NgayTraPhong != updateDatPhongRequestDto.NgayTraPhong)
+        {
+            var isRoomAvailable = await IsRoomAvailable(
+                updateDatPhongRequestDto.IdPhong,
+                updateDatPhongRequestDto.NgayNhanPhong,
+            updateDatPhongRequestDto.NgayTraPhong,
+                id // Loại trừ bản ghi hiện tại khi kiểm tra
+            );
+            if (!isRoomAvailable) return Conflict("Phòng này đã được đặt hoặc không khả dụng trong khoảng thời gian yêu cầu.");
+        }
+
+        datPhongDomain.IdPhieuDatPhong = updateDatPhongRequestDto.IdPhieuDatPhong;
+        datPhongDomain.IdPhong = updateDatPhongRequestDto.IdPhong;
+        datPhongDomain.NgayNhanPhong = updateDatPhongRequestDto.NgayNhanPhong;
+        datPhongDomain.NgayTraPhong = updateDatPhongRequestDto.NgayTraPhong;
+        datPhongDomain.DonGiaPhong = updateDatPhongRequestDto.DonGiaPhong;
+        datPhongDomain.SoLuongNguoiLon = updateDatPhongRequestDto.SoLuongNguoiLon;
+        datPhongDomain.SoLuongTreEm = updateDatPhongRequestDto.SoLuongTreEm;
+        datPhongDomain.TrangThaiDatPhong = updateDatPhongRequestDto.TrangThaiDatPhong;
+        datPhongDomain.GhiChu = updateDatPhongRequestDto.GhiChu;
+
+        await _dbContext.SaveChangesAsync();
+
+        var datPhongDto = new DatPhongDto
+        {
+            IdDatPhong = datPhongDomain.IdDatPhong,
+            IdPhieuDatPhong = datPhongDomain.IdPhieuDatPhong,
+            IdPhong = datPhongDomain.IdPhong,
+            NgayNhanPhong = datPhongDomain.NgayNhanPhong,
+            NgayTraPhong = datPhongDomain.NgayTraPhong,
+            DonGiaPhong = datPhongDomain.DonGiaPhong,
+            SoLuongNguoiLon = datPhongDomain.SoLuongNguoiLon,
+            SoLuongTreEm = datPhongDomain.SoLuongTreEm,
+            TrangThaiDatPhong = datPhongDomain.TrangThaiDatPhong,
+            GhiChu = datPhongDomain.GhiChu,
+            ThoiGianTao = datPhongDomain.ThoiGianTao
+        };
+        return Ok(datPhongDto);
+    }
+
+    // Xóa một lượt đặt phòng
+    [HttpDelete]
+    [Route("{id:int}")]
+    public async Task<IActionResult> Delete([FromRoute] int id)
+    {
+        var datPhongDomain = await _dbContext.DatPhongs.FirstOrDefaultAsync(x => x.IdDatPhong == id);
+        if (datPhongDomain == null) return NotFound("Không tìm thấy lượt đặt phòng để xóa.");
+
+        _dbContext.DatPhongs.Remove(datPhongDomain);
+        await _dbContext.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    // Hàm kiểm tra phòng trống
+    private async Task<bool> IsRoomAvailable(int phongId, DateTime checkInDate, DateTime checkOutDate, int idDatPhongToExclude)
+    {
+        var overlappingBookings = await _dbContext.DatPhongs
+            .Where(dp => dp.IdPhong == phongId &&
+                         dp.IdDatPhong != idDatPhongToExclude &&
+                         (dp.TrangThaiDatPhong == "Đã xác nhận" || dp.TrangThaiDatPhong == "Đang ở") &&
+                         (checkInDate < dp.NgayTraPhong && checkOutDate > dp.NgayNhanPhong))
+            .AnyAsync();
+
+        return !overlappingBookings;
     }
 }
