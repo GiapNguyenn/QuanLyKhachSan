@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using QLKS.API.Data;
 using QLKS.API.Models.Domain;
 using QLKS.API.Models.DTO;
+using QuanLyKhachSan.helpers;
+using QuanLyKhachSan.Models.DTO;
 
 namespace QLKS.API.Controllers
 {
@@ -17,14 +19,12 @@ namespace QLKS.API.Controllers
             this.dbContext = dbContext;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] PaginationDto pagination)
         {
-            var TienNghiDomains = await dbContext.TienNghis.ToListAsync();
+            var query = dbContext.TienNghis.AsQueryable();
 
-            var tienNghiDto = new List<TienNghiDto>();
-            foreach (var tiennghi in TienNghiDomains)
-            {
-                tienNghiDto.Add(new TienNghiDto()
+            var pagedResult = await query
+                .Select(tiennghi => new TienNghiDto
                 {
                     Id = tiennghi.Id,
                     TenTienNghi = tiennghi.TenTienNghi,
@@ -35,10 +35,10 @@ namespace QLKS.API.Controllers
                     ThuTuHienThi = tiennghi.ThuTuHienThi ?? 0,
                     DateBegin = tiennghi.DateBegin ?? DateTime.MinValue,
                     IdLoaiTienNghi = tiennghi.IdLoaiTienNghi ?? 0
-                });
-            }
+                })
+                .ToPagedResultAsync(pagination);
 
-            return Ok(tienNghiDto);
+            return Ok(pagedResult);
         }
         // Get By ID TienNghi
         [HttpGet]

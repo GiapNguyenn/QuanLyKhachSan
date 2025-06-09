@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using QLKS.API.Models.Domain;
 using QLKS.API.Data;
+using QuanLyKhachSan.helpers;
+using QuanLyKhachSan.Models.DTO;
 using Microsoft.EntityFrameworkCore;
 
 namespace QuanLyKhachSan.Controllers;
@@ -22,11 +24,12 @@ public class PhongController : ControllerBase
         _context = context;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetAll()
+    [HttpGet("filter")]
+    public async Task<IActionResult> Filter([FromQuery] PhongFilterDto filter, [FromQuery] PaginationDto pagination)
     {
-        var phongList = await _context.Phongs.ToListAsync();
-        return Ok(phongList);
+        var query = _context.Phongs.AsQueryable();
+        var result = await PhongQueryHelper.GetPagedResultAsync(query, filter, pagination);
+        return Ok(result);
     }
 
     [HttpGet("{id}")]
@@ -36,7 +39,7 @@ public class PhongController : ControllerBase
         if (phong == null) return NotFound();
         return Ok(phong);
     }
-    [HttpGet("search")]
+     [HttpGet("search")]
     public async Task<IActionResult> SearchByName([FromQuery] string keyword)
     {
         if (string.IsNullOrWhiteSpace(keyword))
@@ -55,6 +58,24 @@ public class PhongController : ControllerBase
         await _context.Phongs.AddAsync(phong);
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetById), new { id = phong.IdPhong }, phong);
+    }
+    [HttpPost("{id}/upload-image")]
+    public async Task<IActionResult> UploadImage(int id, IFormFile image)
+    {
+        var phong = await _context.Phongs.FindAsync(id);
+        if (phong == null) return NotFound();
+
+        try
+        {
+            var imageUrl = await ImageUploadHelper.SaveImageAsync(image, "uploads/phongs");
+            phong.HinhAnh = imageUrl;
+            await _context.SaveChangesAsync();
+            return Ok(new { message = "Upload thành công", imageUrl });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
     [HttpPut("{id}")]

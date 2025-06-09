@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using QLKS.API.Data;
 using QLKS.API.Models.Domain;
 using QLKS.API.Models.DTO;
+using QuanLyKhachSan.helpers;
+using QuanLyKhachSan.Models.DTO;
 using System.Globalization;
 
 namespace QLKS.API.Controllers
@@ -19,30 +21,30 @@ namespace QLKS.API.Controllers
             this.dbContext = dbContext;
         }
         
-        [HttpGet]
-        public async Task<IActionResult> GetAllNhanVien()
+       [HttpGet]
+        public async Task<IActionResult> GetAllNhanVien([FromQuery] PaginationDto pagination)
         {
-            var nhanVienDomain = await dbContext.nhanViens.ToListAsync();
-            var nhanVienDto = new List<NhanVienDto>();
-            foreach (var nhanVienDomains in nhanVienDomain)
-            {
-                nhanVienDto.Add(new NhanVienDto()
+            var query = dbContext.nhanViens.AsQueryable();
+
+            var pagedResult = await query
+                .Select(nv => new NhanVienDto
                 {
-                    IdNhanVien = nhanVienDomains.IdNhanVien,
-                    HoTen = nhanVienDomains.HoTen ?? "",
-                    SDT = nhanVienDomains.SDT ?? "",
-                    DiaChi = nhanVienDomains.DiaChi ?? "",
-                    Email = nhanVienDomains.Email ?? "",
-                    MatKhau = nhanVienDomains.MatKhau ?? "",
-                    SaltKey = nhanVienDomains.SaltKey ?? "",
-                    Meta = nhanVienDomains.Meta ?? "",
-                    Hide = nhanVienDomains.Hide,
-                    SapXep = nhanVienDomains.SapXep,
-                    DateBegin = nhanVienDomains.DateBegin,
-                    IdChucVu = nhanVienDomains.IdChucVu,
-                });
-            }
-            return Ok(nhanVienDto);
+                    IdNhanVien = nv.IdNhanVien,
+                    HoTen = nv.HoTen ?? "",
+                    SDT = nv.SDT ?? "",
+                    DiaChi = nv.DiaChi ?? "",
+                    Email = nv.Email ?? "",
+                    MatKhau = nv.MatKhau ?? "",
+                    SaltKey = nv.SaltKey ?? "",
+                    Meta = nv.Meta ?? "",
+                    Hide = nv.Hide,
+                    SapXep = nv.SapXep,
+                    DateBegin = nv.DateBegin,
+                    IdChucVu = nv.IdChucVu
+                })
+                .ToPagedResultAsync(pagination);
+
+            return Ok(pagedResult);
         }
         [HttpGet]
         [Route("{id:int}")]

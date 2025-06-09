@@ -27,6 +27,13 @@ public class PhieuDatPhong
     public int Order { get; set; }
     public DateTime DateBegin { get; set; }
 
+    [ForeignKey("KhachHang")]
     public int IdKhachHang { get; set; }
+    public KhachHang? KhachHang { get; set; }
+    [ForeignKey("NhanVien")]
     public int IdNhanVien { get; set; }
+    public NhanVien? NhanVien { get; set; }
+    [ForeignKey("Phong")]
+    public int? IdPhong { get; set; }
+    public Phong? Phong { get; set; }
 }
