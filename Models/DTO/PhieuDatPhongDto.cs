@@ -22,6 +22,14 @@ public class PhieuDatPhongDto
         public int Order { get; set; }
         public DateTime DateBegin { get; set; }
 
-        public int IdKhachHang { get; set; }
-        public int IdNhanVien { get; set; }
+    public int IdKhachHang { get; set; }
+    public int IdNhanVien { get; set; }
+    public int? IdPhong { get; set; }
+    public string? TenNhanVien { get; set; }
+    public string? TenPhong { get; set; }
+    public string? TenKhachHang { get; set; }
+    public string? SDT { get; set; }
+    public string? CCCD { get; set; }
+    public string? Email { get; set; }
+
 }

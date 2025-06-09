@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -26,14 +26,57 @@ public class PhieuDatPhongController : Controller
             _context = context;
         }
 
-        // GET: api/PhieuDatPhong
-        [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] PaginationDto pagination)
+    // GET: api/PhieuDatPhong
+    [HttpGet]
+    public async Task<IActionResult> GetAll([FromQuery] PaginationDto pagination)
+    {
+        var query = _context.PhieuDatPhongs
+    .Include(p => p.KhachHang)
+    .Include(p => p.NhanVien)
+    .Include(p => p.Phong)
+    .AsQueryable();
+
+        var totalItems = await query.CountAsync();
+
+        var items = await query
+            .Skip((pagination.PageNumber - 1) * pagination.PageSize)
+            .Take(pagination.PageSize)
+            .ToListAsync();
+
+        var dtos = items.Select(datPhong => new PhieuDatPhongDto
         {
-            var query = _context.PhieuDatPhongs.AsQueryable();
-            var pagedResult = await query.ToPagedResultAsync(pagination);
-            return Ok(pagedResult);
-        }
+            IdPhieuDatPhong = datPhong.IdPhieuDatPhong,
+            NgayDatPhong = datPhong.NgayDatPhong,
+            NgayVao = datPhong.NgayVao,
+            NgayRa = datPhong.NgayRa,
+            MaNhanPhong = datPhong.MaNhanPhong,
+            TinhTrangDatPhong = datPhong.TinhTrangDatPhong,
+            TinhTrangThanhToan = datPhong.TinhTrangThanhToan,
+            TongTien = datPhong.TongTien,
+            Meta = datPhong.Meta,
+            Hide = datPhong.Hide,
+            Order = datPhong.Order,
+            DateBegin = datPhong.DateBegin,
+            IdKhachHang = datPhong.IdKhachHang,
+            IdNhanVien = datPhong.IdNhanVien,
+            IdPhong = datPhong.IdPhong,
+            TenPhong = datPhong.Phong?.TenPhong,
+            TenKhachHang = datPhong.KhachHang?.HoTen,
+            SDT = datPhong.KhachHang?.SDT,
+            CCCD = datPhong.KhachHang?.CCCD,
+            Email = datPhong.KhachHang?.Email,
+            TenNhanVien = datPhong.NhanVien?.HoTen
+        }).ToList();
+
+        var pagedResult = new PagedResult<PhieuDatPhongDto>
+        {
+            Items = dtos,
+            TotalRecords = totalItems,  // đổi thành TotalRecords
+            PageNumber = pagination.PageNumber,
+            PageSize = pagination.PageSize
+        };
+        return Ok(pagedResult);
+    }
 
         // GET: api/PhieuDatPhong/5
         [HttpGet("{id}")]
@@ -76,6 +119,70 @@ public class PhieuDatPhongController : Controller
             await _context.SaveChangesAsync();
             return NoContent();
         }
-    
-    
+    [HttpPost("create-from-dto")]
+    public async Task<IActionResult> PostPhieuDatPhong([FromBody] PhieuDatPhongDto dto)
+    {
+        // Kiểm tra dữ liệu đầu vào
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+
+        // Tìm phòng theo Id
+        var phong = await _context.Phongs.FindAsync(dto.IdPhong);
+        if (phong == null)
+            return NotFound("Không tìm thấy phòng.");
+
+        // Tìm khách hàng theo Id
+        var khachHang = await _context.khachHangs.FindAsync(dto.IdKhachHang);
+        if (khachHang == null)
+            return NotFound("Không tìm thấy khách hàng.");
+
+        // Tìm nhân viên theo Id
+        var nhanVien = await _context.nhanViens.FindAsync(dto.IdNhanVien);
+        if (nhanVien == null)
+            return NotFound("Không tìm thấy nhân viên.");
+
+        // Tính số ngày ở
+        var soNgayO = (dto.NgayRa.Date - dto.NgayVao.Date).Days;
+        if (soNgayO <= 0)
+            return BadRequest("Ngày ra phải sau ngày vào.");
+
+        // Tính tổng tiền (giá gốc - giảm giá) * số ngày
+        var giaGoc = phong.GiaPhong ?? 0;
+        var giamGia = phong.GiamGia ?? 0;
+        var tongTien = Math.Max(giaGoc - giamGia, 0) * soNgayO;
+
+        // Tạo phiếu đặt phòng mới
+        var phieu = new PhieuDatPhong
+        {
+            NgayDatPhong = dto.NgayDatPhong,
+            NgayVao = dto.NgayVao,
+            NgayRa = dto.NgayRa,
+            MaNhanPhong = dto.MaNhanPhong,
+            TinhTrangDatPhong = dto.TinhTrangDatPhong,
+            TinhTrangThanhToan = dto.TinhTrangThanhToan,
+            Meta = dto.Meta,
+
+            IdPhong = phong.IdPhong,
+            IdKhachHang = khachHang.IdKhachHang,
+            IdNhanVien = nhanVien.IdNhanVien,
+
+            TongTien = tongTien,
+            Hide = false,
+            Order = 0,
+            DateBegin = DateTime.Now
+        };
+
+        _context.PhieuDatPhongs.Add(phieu);
+        await _context.SaveChangesAsync();
+
+        return Ok(new
+        {
+            Message = "Đặt phòng thành công",
+            IdPhieuDatPhong = phieu.IdPhieuDatPhong,
+            TongTien = phieu.TongTien,
+            TenPhong = phong.TenPhong,
+            TenKhachHang = khachHang.HoTen,
+            TenNhanVien = nhanVien.HoTen
+        });
+    }
 }
