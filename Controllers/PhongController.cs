@@ -31,31 +31,25 @@ public class PhongController : ControllerBase
         var result = await PhongQueryHelper.GetPagedResultAsync(query, filter, pagination);
         return Ok(result);
     }
-   [HttpGet("with-status")]
+  [HttpGet("with-status")]
     public async Task<IActionResult> GetPhongsWithStatus()
     {
-        var phongList = await _context.Phongs
-            // .Include(p => p.LoaiPhong) // Bạn không cần Include LoaiPhong nếu chỉ lấy giá từ Phong
-                                       // Tuy nhiên, nếu bạn muốn lấy TenLoaiPhong thì vẫn cần Include!
-            .Select(p => new
+        var phongData = await _context.Phongs
+            .Include(p => p.LoaiPhong)
+            .Select(p => new // Vẫn là anonymous type
             {
                 p.IdPhong,
                 p.TenPhong,
                 p.IdLoaiPhong,
-                p.TrangThai,
                 p.HinhAnh,
-                // Lấy tên loại phòng từ thuộc tính điều hướng (nếu LoaiPhong tồn tại và được include)
-                LoaiPhong = p.LoaiPhong != null ? p.LoaiPhong.TenLoaiPhong : "N/A", // Đảm bảo LoaiPhong không null
-                // LẤY GIÁ TRỰC TIẾP TỪ PHÒNG
-                Gia = p.GiaPhong, // <<< THAY ĐỔI Ở ĐÂY!
-                IsBooked = _context.DatPhongs.Any(dp =>
-                    dp.IdPhong == p.IdPhong &&
-                    (dp.TrangThaiDatPhong == "Đã xác nhận" || dp.TrangThaiDatPhong == "Đang ở")
-                )
+                LoaiPhong = p.LoaiPhong != null ? p.LoaiPhong.TenLoaiPhong : "N/A",
+                GiaPhong = p.GiaPhong,
+                GiamGia = p.GiamGia,
+                MoTa = p.MoTa,
             })
             .ToListAsync();
 
-        return Ok(phongList);
+        return Ok(phongData);
     }
 
     [HttpGet("{id}")]
