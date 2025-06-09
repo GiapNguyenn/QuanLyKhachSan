@@ -398,6 +398,27 @@
         }
       }
     },
+    "/api/KhachHang/search": {
+      "get": {
+        "tags": [
+          "KhachHang"
+        ],
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/LoaiPhong": {
       "get": {
         "tags": [
@@ -602,6 +623,24 @@
         "tags": [
           "NhanVien"
         ],
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -722,10 +761,49 @@
         }
       }
     },
+    "/api/NhanVien/search": {
+      "get": {
+        "tags": [
+          "NhanVien"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/PhieuDatPhong": {
       "get": {
         "tags": [
           "PhieuDatPhong"
+        ],
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -847,40 +925,99 @@
         }
       }
     },
-    "/api/Phong": {
-      "get": {
-        "tags": [
-          "Phong"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
+    "/api/PhieuDatPhong/create-from-dto": {
       "post": {
         "tags": [
-          "Phong"
+          "PhieuDatPhong"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Phong"
+                "$ref": "#/components/schemas/PhieuDatPhongDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Phong"
+                "$ref": "#/components/schemas/PhieuDatPhongDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Phong"
+                "$ref": "#/components/schemas/PhieuDatPhongDto"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Phong/filter": {
+      "get": {
+        "tags": [
+          "Phong"
+        ],
+        "parameters": [
+          {
+            "name": "TrangThai",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Hide",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "IdLoaiPhong",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "MinGiaPhong",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "MaxGiaPhong",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -972,10 +1109,123 @@
         }
       }
     },
+    "/api/Phong/search": {
+      "get": {
+        "tags": [
+          "Phong"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Phong": {
+      "post": {
+        "tags": [
+          "Phong"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Phong"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Phong"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Phong"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Phong/{id}/upload-image": {
+      "post": {
+        "tags": [
+          "Phong"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "image": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "image": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/TienNghi": {
       "get": {
         "tags": [
           "TienNghi"
+        ],
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -1320,6 +1570,55 @@
         },
         "additionalProperties": false
       },
+      "KhachHang": {
+        "type": "object",
+        "properties": {
+          "idKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hoTen": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "cccd": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "saltKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "meta": {
+            "type": "string",
+            "nullable": true
+          },
+          "hide": {
+            "type": "boolean"
+          },
+          "sapXep": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataBegin": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginRequestDto": {
         "type": "object",
         "properties": {
@@ -1330,6 +1629,59 @@
           "password": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhanVien": {
+        "type": "object",
+        "properties": {
+          "idNhanVien": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hoTen": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "saltKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "meta": {
+            "type": "string",
+            "nullable": true
+          },
+          "hide": {
+            "type": "boolean"
+          },
+          "sapXep": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dateBegin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idChucVu": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1388,9 +1740,113 @@
             "type": "integer",
             "format": "int32"
           },
+          "khachHang": {
+            "$ref": "#/components/schemas/KhachHang"
+          },
           "idNhanVien": {
             "type": "integer",
             "format": "int32"
+          },
+          "nhanVien": {
+            "$ref": "#/components/schemas/NhanVien"
+          },
+          "idPhong": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "phong": {
+            "$ref": "#/components/schemas/Phong"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PhieuDatPhongDto": {
+        "type": "object",
+        "properties": {
+          "idPhieuDatPhong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayDatPhong": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayVao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayRa": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "maNhanPhong": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangDatPhong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThanhToan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tongTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "meta": {
+            "type": "string",
+            "nullable": true
+          },
+          "hide": {
+            "type": "boolean"
+          },
+          "order": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dateBegin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idNhanVien": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPhong": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenNhanVien": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenPhong": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenKhachHang": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "cccd": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

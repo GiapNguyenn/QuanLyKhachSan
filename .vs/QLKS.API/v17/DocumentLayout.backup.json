@@ -1,125 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\APIQuanLyKhachSan\\",
+  "WorkspaceRootPath": "D:\\WebsiteQuanLyKhachSan1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\datphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\datphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\adddatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\adddatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\addchucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addchucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\updatedatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatedatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\updatechucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatechucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\phieudatphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\phieudatphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\tiennghicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\tiennghicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\phieudatphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\phieudatphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\phieudatphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\datphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\datphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\phieudatphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\phieudatphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\phieudatphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\phieudatphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\data\\qlksdbcontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:data\\qlksdbcontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\updateloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updateloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\updatetiennghhirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatetiennghhirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\tiennghidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\tiennghidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\tiennghi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\tiennghi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\addtiennghirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addtiennghirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\chucvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\helpers\\paginationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:helpers\\paginationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\datphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\datphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\adddatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\adddatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\addchucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addchucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\updatedatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatedatphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\updatechucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatechucvurequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\tiennghicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\tiennghicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\datphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\datphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\data\\qlksdbcontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:data\\qlksdbcontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\updateloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updateloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\updatetiennghhirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\updatetiennghhirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\tiennghidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\tiennghidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\tiennghi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\tiennghi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\addtiennghirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addtiennghirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\chucvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\chucvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\loaiphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\loaiphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\loaiphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\addloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\addloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addloaiphongrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\loaiphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\loaiphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\loaiphongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\dto\\addkhachhangrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\dto\\addkhachhangrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\dto\\addkhachhangrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\models\\domain\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\models\\domain\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:models\\domain\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\apiquanlykhachsan\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|d:\\websitequanlykhachsan1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD94A7D-00AD-0F00-4D33-A48C1614EE72}|QLKS.API.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -130,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,102 +154,131 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:36:00.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginationHelper.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\helpers\\PaginationHelper.cs",
+              "RelativeDocumentMoniker": "helpers\\PaginationHelper.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\helpers\\PaginationHelper.cs",
+              "RelativeToolTip": "helpers\\PaginationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:33:34.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhieuDatPhong.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\PhieuDatPhong.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\PhieuDatPhong.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\PhieuDatPhong.cs",
+              "RelativeToolTip": "Models\\Domain\\PhieuDatPhong.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:30:23.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UpdateDatPhongRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateDatPhongRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateDatPhongRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\UpdateDatPhongRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateDatPhongRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateDatPhongRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\UpdateDatPhongRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:48:45.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PhieuDatPhongDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\PhieuDatPhongDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\PhieuDatPhongDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\PhieuDatPhongDto.cs",
-              "RelativeToolTip": "Models\\DTO\\PhieuDatPhongDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:44:50.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddDatPhongRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddDatPhongRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\AddDatPhongRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddDatPhongRequestDto.cs",
-              "RelativeToolTip": "Models\\DTO\\AddDatPhongRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:44:32.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\KhachHang.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\KhachHang.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\KhachHang.cs",
-              "RelativeToolTip": "Models\\Domain\\KhachHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:35:54.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatPhongController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\DatPhongController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DatPhongController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\DatPhongController.cs",
-              "RelativeToolTip": "Controllers\\DatPhongController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:29:20.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DatPhongDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\DatPhongDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\DatPhongDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\DatPhongDto.cs",
-              "RelativeToolTip": "Models\\DTO\\DatPhongDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:27:42.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T01:48:45.614Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DatPhong.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\DatPhong.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\DatPhong.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\DatPhong.cs",
-              "RelativeToolTip": "Models\\Domain\\DatPhong.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Title": "PhieuDatPhongDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\PhieuDatPhongDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\PhieuDatPhongDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\PhieuDatPhongDto.cs",
+              "RelativeToolTip": "Models\\DTO\\PhieuDatPhongDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:23:12.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T01:44:50.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddDatPhongRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddDatPhongRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\AddDatPhongRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddDatPhongRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\AddDatPhongRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:44:32.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\KhachHang.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\KhachHang.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\KhachHang.cs",
+              "RelativeToolTip": "Models\\Domain\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:35:54.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatPhongController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\DatPhongController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DatPhongController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\DatPhongController.cs",
+              "RelativeToolTip": "Controllers\\DatPhongController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:29:20.943Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "DatPhongDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\DatPhongDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DatPhongDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\DatPhongDto.cs",
+              "RelativeToolTip": "Models\\DTO\\DatPhongDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:27:42.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatPhong.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\DatPhong.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\DatPhong.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\DatPhong.cs",
+              "RelativeToolTip": "Models\\Domain\\DatPhong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:23:12.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UpdateTienNghhiRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateTienNghhiRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateTienNghhiRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\UpdateTienNghhiRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateTienNghhiRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateTienNghhiRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\UpdateTienNghhiRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AddTienNghiRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddTienNghiRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddTienNghiRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AddTienNghiRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddTienNghiRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddTienNghiRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\AddTienNghiRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,37 +298,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "PhieuDatPhongController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\PhieuDatPhongController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\PhieuDatPhongController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhieuDatPhongController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\PhieuDatPhongController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\PhieuDatPhongController.cs",
               "RelativeToolTip": "Controllers\\PhieuDatPhongController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwHoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T07:18:09.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "PhongController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\PhongController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\PhongController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhongController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\PhongController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\PhongController.cs",
               "RelativeToolTip": "Controllers\\PhongController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:17:49.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T07:17:49.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\RegisterRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\RegisterRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\RegisterRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\RegisterRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\RegisterRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\RegisterRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,11 +335,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ChucVuDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\ChucVuDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\ChucVuDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\ChucVuDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\ChucVuDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\ChucVuDto.cs",
               "RelativeToolTip": "Models\\DTO\\ChucVuDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,50 +347,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TienNghiController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\TienNghiController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\TienNghiController.cs",
               "RelativeDocumentMoniker": "Controllers\\TienNghiController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\TienNghiController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\TienNghiController.cs",
               "RelativeToolTip": "Controllers\\TienNghiController.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAApwFYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:44:29.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:44:29.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "QLKSDbContextcs.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Data\\QLKSDbContextcs.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Data\\QLKSDbContextcs.cs",
               "RelativeDocumentMoniker": "Data\\QLKSDbContextcs.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Data\\QLKSDbContextcs.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Data\\QLKSDbContextcs.cs",
               "RelativeToolTip": "Data\\QLKSDbContextcs.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:43:19.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:43:19.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AddChucVuRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddChucVuRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddChucVuRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AddChucVuRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddChucVuRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddChucVuRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\AddChucVuRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:43:05.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:43:05.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "TienNghiDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\TienNghiDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\TienNghiDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\TienNghiDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\TienNghiDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\TienNghiDto.cs",
               "RelativeToolTip": "Models\\DTO\\TienNghiDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,11 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "TienNghi.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\TienNghi.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\TienNghi.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\TienNghi.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\TienNghi.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\TienNghi.cs",
               "RelativeToolTip": "Models\\Domain\\TienNghi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -370,24 +407,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "UpdateChucVuRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateChucVuRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateChucVuRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\UpdateChucVuRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateChucVuRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateChucVuRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\UpdateChucVuRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:45:02.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:45:02.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "UpdateLoaiPhongRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\UpdateLoaiPhongRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +431,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "AddKhachHangRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddKhachHangRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddKhachHangRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AddKhachHangRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddKhachHangRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddKhachHangRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\AddKhachHangRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +443,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "AddLoaiPhongRequestDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddLoaiPhongRequestDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddLoaiPhongRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AddLoaiPhongRequestDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\AddLoaiPhongRequestDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\AddLoaiPhongRequestDto.cs",
               "RelativeToolTip": "Models\\DTO\\AddLoaiPhongRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,11 +455,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "LoaiPhongDto.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\DTO\\LoaiPhongDto.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\LoaiPhongDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\LoaiPhongDto.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\DTO\\LoaiPhongDto.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\DTO\\LoaiPhongDto.cs",
               "RelativeToolTip": "Models\\DTO\\LoaiPhongDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -431,11 +467,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Login.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\Login.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\Login.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Login.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\Login.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\Login.cs",
               "RelativeToolTip": "Models\\Domain\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,37 +479,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ChucVu.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\ChucVu.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\ChucVu.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\ChucVu.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\ChucVu.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\ChucVu.cs",
               "RelativeToolTip": "Models\\Domain\\ChucVu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:25:02.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:25:02.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "LoaiPhong.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Models\\Domain\\LoaiPhong.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\LoaiPhong.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\LoaiPhong.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Models\\Domain\\LoaiPhong.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Models\\Domain\\LoaiPhong.cs",
               "RelativeToolTip": "Models\\Domain\\LoaiPhong.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:12:33.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:12:33.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -481,24 +515,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ChucVuController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\ChucVuController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\ChucVuController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChucVuController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\ChucVuController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\ChucVuController.cs",
               "RelativeToolTip": "Controllers\\ChucVuController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:50:53.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T04:50:53.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "LoaiPhongController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\LoaiPhongController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\LoaiPhongController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoaiPhongController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\LoaiPhongController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\LoaiPhongController.cs",
               "RelativeToolTip": "Controllers\\LoaiPhongController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -506,16 +539,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "KhachHangController.cs",
-              "DocumentMoniker": "D:\\APIQuanLyKhachSan\\Controllers\\KhachHangController.cs",
+              "DocumentMoniker": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\KhachHangController.cs",
               "RelativeDocumentMoniker": "Controllers\\KhachHangController.cs",
-              "ToolTip": "D:\\APIQuanLyKhachSan\\Controllers\\KhachHangController.cs",
+              "ToolTip": "D:\\WebsiteQuanLyKhachSan1\\Controllers\\KhachHangController.cs",
               "RelativeToolTip": "Controllers\\KhachHangController.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAwwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:41:42.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T04:41:42.745Z"
             }
           ]
         }
