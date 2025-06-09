@@ -1,5 +1,7 @@
 ﻿using QuanLyKhachSan.Models.Domain;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace QLKS.API.Models.Domain
 {
     public class Phong
@@ -21,5 +23,7 @@ namespace QLKS.API.Models.Domain
         public string? HinhAnh { get; set; } 
         public int TrangThai { get; set; }
         public int IdLoaiPhong { get; set; }
+        [ForeignKey("IdLoaiPhong")]
+        public LoaiPhong LoaiPhong { get; set; }
     }
 }

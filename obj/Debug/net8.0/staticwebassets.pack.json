@@ -5,7 +5,15 @@
       "PackagePath": "staticwebassets\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg"
     },
     {
+<<<<<<< HEAD
+      "Id": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\phongs\\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg",
+      "PackagePath": "staticwebassets\\uploads\\phongs\\3c689c83-355e-4756-9b08-ac80b973e262_AnhPhong101.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\QuanLyKhachSan\\wwwroot\\uploads\\users\\TMDT.jpg",
+=======
       "Id": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\users\\TMDT.jpg",
+>>>>>>> master
       "PackagePath": "staticwebassets\\uploads\\users\\TMDT.jpg"
     },
     {

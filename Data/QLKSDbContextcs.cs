@@ -6,12 +6,15 @@ namespace QLKS.API.Data
 {
     public class QLKSDbContextcs : DbContext
     {
-         public  QLKSDbContextcs(DbContextOptions dbContextOptions) : base(dbContextOptions) 
-        { 
+        // Để sửa lỗi trong constructor, bạn cần chỉ rõ kiểu cho DbContextOptions.
+        // Nó phải là DbContextOptions<TDbContext>
+        public QLKSDbContextcs(DbContextOptions<QLKSDbContextcs> dbContextOptions) : base(dbContextOptions)
+        {
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Các mapping ToTable của bạn vẫn giữ nguyên
             modelBuilder.Entity<ChucVu>().ToTable("ChucVu", "QLKS");
             modelBuilder.Entity<Login>().ToTable("Login", "QLKS");
             modelBuilder.Entity<KhachHang>().ToTable("KhachHang", "QLKS");
@@ -21,16 +24,21 @@ namespace QLKS.API.Data
             modelBuilder.Entity<LoaiPhong>().ToTable("LoaiPhong", "QLKS");
             modelBuilder.Entity<TienNghi>().ToTable("TienNghi", "QLKS");
             modelBuilder.Entity<DatPhong>().ToTable("DatPhong", "QLKS");
+            modelBuilder.Entity<DichVu>().ToTable("DichVu", "QLKS"); // Đảm bảo đã thêm cái này cho bảng DichVu
+            modelBuilder.Entity<ChiTietDichVu>().ToTable("ChiTietDichVu", "QLKS");
         }
 
+        // Các DbSet của bạn vẫn giữ nguyên
         public DbSet<ChucVu> chucVus { get; set; }
-        public DbSet<Login> logins { get; set; }   
-        public DbSet<KhachHang> khachHangs{ get;set; }  
+        public DbSet<Login> logins { get; set; }
+        public DbSet<KhachHang> khachHangs{ get;set; }
         public DbSet<NhanVien> nhanViens { get; set; }
         public DbSet<Phong> Phongs { get; set; }
         public DbSet<PhieuDatPhong> PhieuDatPhongs { get; set; }
         public DbSet<LoaiPhong> LoaiPhongs { get; set; }
-        public DbSet<TienNghi> TienNghis { get; set; } 
-        public DbSet<DatPhong> DatPhongs { get; set; }  
+        public DbSet<TienNghi> TienNghis { get; set; }
+        public DbSet<DatPhong> DatPhongs { get; set; }
+        public DbSet<DichVu> DichVus { get; set; } // Đảm bảo đã thêm DbSet này
+        public DbSet<ChiTietDichVu> ChiTietDichVus { get; set; }
     }
 }
