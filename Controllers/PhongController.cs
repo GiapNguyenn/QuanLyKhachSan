@@ -65,6 +65,18 @@ public class PhongController : ControllerBase
         if (phong == null) return NotFound();
         return Ok(phong);
     }
+     [HttpGet("search")]
+    public async Task<IActionResult> SearchByName([FromQuery] string keyword)
+    {
+        if (string.IsNullOrWhiteSpace(keyword))
+            return BadRequest("Từ khóa tìm kiếm không được để trống.");
+
+        var result = await _context.Phongs
+            .Where(p => EF.Functions.Like(p.TenPhong, $"%{keyword}%"))
+            .ToListAsync();
+
+        return Ok(result);
+    }
 
     [HttpPost]
     public async Task<IActionResult> Create(Phong phong)

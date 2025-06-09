@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.ga81tgzmls.jpg",
+      "AssetFile": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 13:26:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ga81tgzmls"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
+      "AssetFile": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 13:26:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0="
+        }
+      ]
+    },
+    {
       "Route": "uploads/users/TMDT.jpg",
       "AssetFile": "uploads/users/TMDT.jpg",
       "Selectors": [],
@@ -29,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+          "Value": "Sun, 08 Jun 2025 13:26:27 GMT"
         }
       ],
       "EndpointProperties": [
@@ -66,7 +148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 04:23:14 GMT"
+          "Value": "Sun, 08 Jun 2025 13:26:27 GMT"
         }
       ],
       "EndpointProperties": [

@@ -74,6 +74,36 @@ namespace QLKS.API.Controllers
             };
             return Ok(nhanVienDto);
         }
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchNhanVienByName([FromQuery] string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                return BadRequest("Vui lòng nhập từ khóa tìm kiếm.");
+            }
+
+            var matchedNhanViens = await dbContext.nhanViens
+                .Where(nv => EF.Functions.Like(nv.HoTen, $"%{keyword}%"))
+                .ToListAsync();
+
+            var nhanVienDtos = matchedNhanViens.Select(nv => new NhanVienDto
+            {
+                IdNhanVien = nv.IdNhanVien,
+                HoTen = nv.HoTen,
+                SDT = nv.SDT,
+                DiaChi = nv.DiaChi,
+                Email = nv.Email,
+                MatKhau = nv.MatKhau,
+                SaltKey = nv.SaltKey,
+                Meta = nv.Meta,
+                Hide = nv.Hide,
+                SapXep = nv.SapXep,
+                DateBegin = nv.DateBegin,
+                IdChucVu = nv.IdChucVu
+            }).ToList();
+
+            return Ok(nhanVienDtos);
+        }
         //Post To create new NhanVien
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddNhanVienRequestDto addNhanVienRequestDto)
