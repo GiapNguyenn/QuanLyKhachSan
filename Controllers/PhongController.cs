@@ -31,6 +31,26 @@ public class PhongController : ControllerBase
         var result = await PhongQueryHelper.GetPagedResultAsync(query, filter, pagination);
         return Ok(result);
     }
+  [HttpGet("with-status")]
+    public async Task<IActionResult> GetPhongsWithStatus()
+    {
+        var phongData = await _context.Phongs
+            .Include(p => p.LoaiPhong)
+            .Select(p => new // Vẫn là anonymous type
+            {
+                p.IdPhong,
+                p.TenPhong,
+                p.IdLoaiPhong,
+                p.HinhAnh,
+                LoaiPhong = p.LoaiPhong != null ? p.LoaiPhong.TenLoaiPhong : "N/A",
+                GiaPhong = p.GiaPhong,
+                GiamGia = p.GiamGia,
+                MoTa = p.MoTa,
+            })
+            .ToListAsync();
+
+        return Ok(phongData);
+    }
 
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)

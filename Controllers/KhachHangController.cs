@@ -105,6 +105,7 @@ namespace QLKS.API.Controllers
 
             return Ok(khachHangs);
         }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddKhachHangRequestDto addKhachHangRequestDto)
         {
