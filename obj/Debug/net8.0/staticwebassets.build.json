@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HVh3gZm8BM0hjRAV6m4ryoqdfost1ezlqowuBLsm7sA=",
+  "Hash": "CRCWaHQIXNB88bOID0LxPSsbgZV0e2y9QF9IngCTT1I=",
   "Source": "QLKS.API",
   "BasePath": "_content/QLKS.API",
   "Mode": "Default",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kecqxuozs",
+      "Integrity": "tzKvVSDhW7hlE2fs8oGxJh2EFXqp+DVknev8H0HtFBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ckd3iv6a2e",
+      "Integrity": "bHXckE5jVjkYvlQyTOqLQrcQ8+ApyXWHELzOMJG4o/Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg"
+    },
     {
       "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
       "SourceId": "QLKS.API",
@@ -36,6 +78,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eif5j2xhg3",
+      "Integrity": "xmifMkwaudo80ve1+JarLFYG2NROeLjoEg1s0/9nsxs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0g7a8tou83",
+      "Integrity": "0B8+HmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jb4neockbg",
+      "Integrity": "n2OzU+AVr9ZTkVeF0Pewafy+ApOPY88gflhSUcBhaOY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ls2yti0x8o",
+      "Integrity": "W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jp25354569",
+      "Integrity": "Cczc2E+vIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ytc0i2u7yy",
+      "Integrity": "CoWLonK7fpe+tPhEZbPJlS4zyx+ojrPjF1tkHlJZ0nE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg"
+    },
+    {
+      "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg",
+      "SourceId": "QLKS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\",
+      "BasePath": "_content/QLKS.API",
+      "RelativePath": "uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7syqu5yig0",
+      "Integrity": "l+S500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\phongs\\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg"
     },
     {
       "Identity": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\users\\TMDT.jpg",
@@ -60,6 +249,170 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.7kecqxuozs.png",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "239969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tzKvVSDhW7hlE2fs8oGxJh2EFXqp+DVknev8H0HtFBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:59:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kecqxuozs"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tzKvVSDhW7hlE2fs8oGxJh2EFXqp+DVknev8H0HtFBs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "239969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tzKvVSDhW7hlE2fs8oGxJh2EFXqp+DVknev8H0HtFBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:59:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tzKvVSDhW7hlE2fs8oGxJh2EFXqp+DVknev8H0HtFBs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.ckd3iv6a2e.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bHXckE5jVjkYvlQyTOqLQrcQ8+ApyXWHELzOMJG4o/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:57:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ckd3iv6a2e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHXckE5jVjkYvlQyTOqLQrcQ8+ApyXWHELzOMJG4o/Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bHXckE5jVjkYvlQyTOqLQrcQ8+ApyXWHELzOMJG4o/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:57:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHXckE5jVjkYvlQyTOqLQrcQ8+ApyXWHELzOMJG4o/Q="
+        }
+      ]
+    },
     {
       "Route": "uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.ga81tgzmls.jpg",
       "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg",
@@ -139,6 +492,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB+/p0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.eif5j2xhg3.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmifMkwaudo80ve1+JarLFYG2NROeLjoEg1s0/9nsxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:30:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eif5j2xhg3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmifMkwaudo80ve1+JarLFYG2NROeLjoEg1s0/9nsxs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmifMkwaudo80ve1+JarLFYG2NROeLjoEg1s0/9nsxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:30:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmifMkwaudo80ve1+JarLFYG2NROeLjoEg1s0/9nsxs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.0g7a8tou83.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0B8+HmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0g7a8tou83"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0B8+HmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0B8+HmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0B8+HmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jb4neockbg.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n2OzU+AVr9ZTkVeF0Pewafy+ApOPY88gflhSUcBhaOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 10:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jb4neockbg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n2OzU+AVr9ZTkVeF0Pewafy+ApOPY88gflhSUcBhaOY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n2OzU+AVr9ZTkVeF0Pewafy+ApOPY88gflhSUcBhaOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 10:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n2OzU+AVr9ZTkVeF0Pewafy+ApOPY88gflhSUcBhaOY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:24:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.ls2yti0x8o.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:24:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ls2yti0x8o"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.jp25354569.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cczc2E+vIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jp25354569"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cczc2E+vIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cczc2E+vIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cczc2E+vIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CoWLonK7fpe+tPhEZbPJlS4zyx+ojrPjF1tkHlJZ0nE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:26:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CoWLonK7fpe+tPhEZbPJlS4zyx+ojrPjF1tkHlJZ0nE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.ytc0i2u7yy.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CoWLonK7fpe+tPhEZbPJlS4zyx+ojrPjF1tkHlJZ0nE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 09:26:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ytc0i2u7yy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CoWLonK7fpe+tPhEZbPJlS4zyx+ojrPjF1tkHlJZ0nE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.7syqu5yig0.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+S500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 10:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7syqu5yig0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+S500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg",
+      "AssetFile": "D:\\WebsiteQuanLyKhachSan1\\wwwroot\\uploads\\phongs\\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l+S500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 10:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l+S500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U="
         }
       ]
     },

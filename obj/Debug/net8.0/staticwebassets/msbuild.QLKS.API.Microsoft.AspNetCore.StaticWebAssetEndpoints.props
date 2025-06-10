@@ -1,5 +1,29 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.7kecqxuozs.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7kecqxuozs"},{"Name":"integrity","Value":"sha256-tzKvVSDhW7hlE2fs8oGxJh2EFXqp\u002BDVknev8H0HtFBs="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"239969"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tzKvVSDhW7hlE2fs8oGxJh2EFXqp\u002BDVknev8H0HtFBs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:59:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\133af679-f2b5-4a51-9091-c8f5158d1bfa_1_Hotel_SF_-_City_King_with_Sofa_Bedw1440.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tzKvVSDhW7hlE2fs8oGxJh2EFXqp\u002BDVknev8H0HtFBs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"239969"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tzKvVSDhW7hlE2fs8oGxJh2EFXqp\u002BDVknev8H0HtFBs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:59:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.ckd3iv6a2e.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ckd3iv6a2e"},{"Name":"integrity","Value":"sha256-bHXckE5jVjkYvlQyTOqLQrcQ8\u002BApyXWHELzOMJG4o/Q="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"78665"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bHXckE5jVjkYvlQyTOqLQrcQ8\u002BApyXWHELzOMJG4o/Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:57:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\2ea057aa-c2be-4d42-94d3-3a1e42ad50ca_room-201.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bHXckE5jVjkYvlQyTOqLQrcQ8\u002BApyXWHELzOMJG4o/Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"78665"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bHXckE5jVjkYvlQyTOqLQrcQ8\u002BApyXWHELzOMJG4o/Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:57:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.ga81tgzmls.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\340b4331-b317-4192-b30d-3b5b9c4bbaed_anhA101.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -11,6 +35,90 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB\u002B/p0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25173"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yPLPWwSzYSnWTQzI9Cn9ItpRNCwdORd4L91GlnB\u002B/p0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Jun 2025 13:26:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.eif5j2xhg3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eif5j2xhg3"},{"Name":"integrity","Value":"sha256-xmifMkwaudo80ve1\u002BJarLFYG2NROeLjoEg1s0/9nsxs="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37118"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xmifMkwaudo80ve1\u002BJarLFYG2NROeLjoEg1s0/9nsxs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:30:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\53864a4f-955a-4829-87f0-5a8f14a0ebae_74c9933f-2a69-40ba-8782-fd63ffcecc48_large.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xmifMkwaudo80ve1\u002BJarLFYG2NROeLjoEg1s0/9nsxs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37118"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xmifMkwaudo80ve1\u002BJarLFYG2NROeLjoEg1s0/9nsxs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:30:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.0g7a8tou83.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0g7a8tou83"},{"Name":"integrity","Value":"sha256-0B8\u002BHmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220B8\u002BHmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\880adc7a-8a9e-4baa-bf30-64cce16cd466_11-beach.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0B8\u002BHmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220B8\u002BHmAAiETnChFfLqQFJvlNkHVuikOJfaRFB8hSygk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jb4neockbg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jb4neockbg"},{"Name":"integrity","Value":"sha256-n2OzU\u002BAVr9ZTkVeF0Pewafy\u002BApOPY88gflhSUcBhaOY="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"331145"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n2OzU\u002BAVr9ZTkVeF0Pewafy\u002BApOPY88gflhSUcBhaOY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 10:01:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\be412926-71ac-438c-928b-da21da080d41_courtyard-anaheim-theme-park-entrance-review (2).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n2OzU\u002BAVr9ZTkVeF0Pewafy\u002BApOPY88gflhSUcBhaOY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"331145"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n2OzU\u002BAVr9ZTkVeF0Pewafy\u002BApOPY88gflhSUcBhaOY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 10:01:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"615938"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:24:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.ls2yti0x8o.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ls2yti0x8o"},{"Name":"integrity","Value":"sha256-W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/c1fb8c05-e8ce-4ce8-9362-740922f1d71f_phong-tam-khach-san-bang-cua-kinh-cuong-luc.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"615938"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022W7hir9PT9pe5SceddRJSXNrTfdmTqigAKGdW8EwJJts=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:24:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.jp25354569.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jp25354569"},{"Name":"integrity","Value":"sha256-Cczc2E\u002BvIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65894"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Cczc2E\u002BvIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:31:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\d025b856-ef18-4063-9f01-9e5fb226fa88_03-Two-Bedroom-Grand-Luxury-Suite-Sea-View-1200x600.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cczc2E\u002BvIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65894"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Cczc2E\u002BvIfm61E4l6oD7wqeVqEMwqMh0Bohkbr2lCSw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:31:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CoWLonK7fpe\u002BtPhEZbPJlS4zyx\u002BojrPjF1tkHlJZ0nE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26840"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CoWLonK7fpe\u002BtPhEZbPJlS4zyx\u002BojrPjF1tkHlJZ0nE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:26:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.ytc0i2u7yy.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ytc0i2u7yy"},{"Name":"integrity","Value":"sha256-CoWLonK7fpe\u002BtPhEZbPJlS4zyx\u002BojrPjF1tkHlJZ0nE="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/dbde44d5-55dd-4bf5-8291-0284430ca99e_OIP.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26840"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CoWLonK7fpe\u002BtPhEZbPJlS4zyx\u002BojrPjF1tkHlJZ0nE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 09:26:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.7syqu5yig0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7syqu5yig0"},{"Name":"integrity","Value":"sha256-l\u002BS500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U="},{"Name":"label","Value":"_content/QLKS.API/uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"333733"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022l\u002BS500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 10:16:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/phongs/ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\phongs\ed334b1c-a454-40d1-9711-376e4fef3689_7C9A9949-HDR-1620x1080.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l\u002BS500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"333733"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022l\u002BS500tLekxmxCIFfY79qTYhCY6IsNXGNfkTBsk/k8U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 10:16:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLKS.API/uploads/users/TMDT.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\users\TMDT.jpg'))</AssetFile>

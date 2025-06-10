@@ -158,6 +158,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "QLKS.API.Controllers.HoaDonController",
+    "Method": "GetById",
+    "RelativePath": "api/HoaDon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.HoaDonController",
+    "Method": "CreateHoaDon",
+    "RelativePath": "api/HoaDon/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "QLKS.API.Models.DTO.AddHoaDonRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLKS.API.Controllers.HoaDonController",
+    "Method": "GetAllHoaDon",
+    "RelativePath": "api/HoaDon/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "QLKS.API.Controllers.KhachHangController",
     "Method": "GetAll",
     "RelativePath": "api/KhachHang",
