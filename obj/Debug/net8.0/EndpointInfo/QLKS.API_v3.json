@@ -255,6 +255,72 @@
         }
       }
     },
+    "/api/HoaDon/create": {
+      "post": {
+        "tags": [
+          "HoaDon"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddHoaDonRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddHoaDonRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddHoaDonRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HoaDon/list": {
+      "get": {
+        "tags": [
+          "HoaDon"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HoaDon/{id}": {
+      "get": {
+        "tags": [
+          "HoaDon"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/KhachHang": {
       "get": {
         "tags": [
@@ -1404,6 +1470,37 @@
             "format": "int32"
           },
           "idPhong": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddHoaDonRequestDto": {
+        "required": [
+          "idPhieuDatPhong"
+        ],
+        "type": "object",
+        "properties": {
+          "tongTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "meta": {
+            "type": "string",
+            "nullable": true
+          },
+          "hide": {
+            "type": "boolean"
+          },
+          "hienThi": {
+            "type": "boolean"
+          },
+          "dateBegin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idPhieuDatPhong": {
             "type": "integer",
             "format": "int32"
           }

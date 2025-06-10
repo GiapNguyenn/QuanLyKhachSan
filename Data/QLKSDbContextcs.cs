@@ -23,8 +23,10 @@ namespace QLKS.API.Data
             modelBuilder.Entity<Phong>().ToTable("Phong", "QLKS");
             modelBuilder.Entity<LoaiPhong>().ToTable("LoaiPhong", "QLKS");
             modelBuilder.Entity<TienNghi>().ToTable("TienNghi", "QLKS");
+            modelBuilder.Entity<HoaDon>().ToTable("HoaDon", "QLKS");
             modelBuilder.Entity<DichVu>().ToTable("DichVu", "QLKS"); // Đảm bảo đã thêm cái này cho bảng DichVu
             modelBuilder.Entity<ChiTietDichVu>().ToTable("ChiTietDichVu", "QLKS");
+
         }
 
         // Các DbSet của bạn vẫn giữ nguyên
@@ -35,7 +37,8 @@ namespace QLKS.API.Data
         public DbSet<Phong> Phongs { get; set; }
         public DbSet<PhieuDatPhong> PhieuDatPhongs { get; set; }
         public DbSet<LoaiPhong> LoaiPhongs { get; set; }
-        public DbSet<TienNghi> TienNghis { get; set; }
+        public DbSet<TienNghi> TienNghis { get; set; } 
+        public DbSet<HoaDon> HoaDons { get; set; }   
         public DbSet<DichVu> DichVus { get; set; } // Đảm bảo đã thêm DbSet này
         public DbSet<ChiTietDichVu> ChiTietDichVus { get; set; }
     }
